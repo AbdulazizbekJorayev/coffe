@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    background: linear-gradient(180deg, #4B2C24 0%, #2B1712 100%);
+    margin: 0px auto;
+}
+nav ul{
+    display: flex;
+    gap: 60px;
+    margin-left: 550px;
+    margin-top: -33px;
+}
+.logo{
+    margin-left: 100px;             
+}
+li{
+    font-family: 'Pacifico', cursive;
+    list-style: none;
+    color: white;
+}
+span{
+    color: #DDB66F;
+}
+.hr{
+    max-width: 1200px;
+    border-bottom: 2px dashed rgb(201, 83, 83);
+    margin: 0px auto;
+}
+.container2{
+    /* display: flex; */
+    background: linear-gradient(180deg, #4B2C24 0%, #2B1712 100%);
+    height: 750px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.hero{
+    display: flex;
+}
+.hero2{
+    margin-top: 200px;
+}
+.hero2 h5{
+    color: #DDB66F;
+}
+.hero2 h1{
+    width: 300px;
+    flex-wrap: wrap;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 50px;
+}
+.hero2 p{
+    margin-top: 5px;
+    color: white;
+    font-size: 15px
+}
+.hero2 button{
+    margin-top: 40px;
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: #DDB66F;
+    border: 2px solid transparent;
+}
+.hero2 button img{
+    padding: 0px 5px;
+}
+.hero2 .img_1{
+    margin-left: 230px;
+    margin-top: -100px;
+}
+.container3{
+    max-width: 1200px;
+    background-color: #492D26;
+    border-radius: 65px 65px 0px 0px;
+    position: relative;
+    margin-top: -70px;
+    display: flex;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section1{
+    width: 350px;
+    height: 200px;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.section1 button{
+    margin-top: 40px;
+    padding-top: -5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    border-radius: 20px;
+    background: #2B1712;
+    border: 2px solid transparent; 
+    color: white; 
+}
+.section1 button img{
+    padding-top: 10px;
+}
+.section1 p{
+    margin-top: 30px;
+    color: white    ;
+}
+.section1_img img{
+    width: 440px;
+    height: 250px;
+    margin: 50px 55px;
+}
+.container4{
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 65px 65px 0px 0px;
+    position: relative;
+    margin-top: -70px;
+    display: flex;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section2_img img{
+    width: 350px;
+    height: 250px;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+.section2 h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 33px;
+    gap: 15px;
+    margin-top: 80px;
+    margin-left: 70px;
+}
+.section2 p{
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.679);
+}
+.section3 img{
+    width: 1200px;
+    position: relative;
+    margin-top: -100px;
+    height: 520px;
+    margin-left: 160px;
+    
+}
+.container5{
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 65px 65px 0px 0px;
+    position: relative;
+    margin-top: -70px;
+    display: flex;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section4 h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    gap: 50px;
+    margin-top: 60px;
+    margin-left: 140px;
+}
+.section4 h5{
+    margin-top: 30px;
+    margin-left: 140px;
+    color: rgba(0, 0, 0, 0.747);
+}
+.section4_img img{
+    width: 350px;
+    height: 250px;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+.container6{
+    max-width: 1200px;
+    background: url(../imgs/footer_bagkraund.png);
+    background-color: #2B1712;
+    border-radius: 65px 65px 0px 0px;
+    position: relative;
+    margin-top: -70px;
+    height: 400px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}   
+.logo2 img{
+    margin-left:100px;
+    margin-top: 70px;
+}
+.logo2 h2{
+    color: white;
+    font-family: 'Pacifico', cursive;
+    gap: 50px;
+    margin-left:100px;
+    margin-top: 20px;
+}
+.footer{
+    margin-top: 80px;
+    margin-left: 400px;
+}
+.btn1{
+    padding: 10px 70px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.53);
+    border: 2px solid rgba(245, 222, 179, 0.315);
+    font-size: 12px;
+
+}
+.btn2{
+    margin-top: 25px;
+    padding: 15px 95px; 
+    border-radius: 20px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgba(245, 222, 179, 0.315);
+    font-size: 12px;
+    background-color: #DDB66F;
+}
+.btn2 img{
+
+}
